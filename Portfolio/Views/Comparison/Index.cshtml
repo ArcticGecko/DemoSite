@@ -1,0 +1,21 @@
+@using Portfolio.Utils
+@model ComparisonViewModel
+
+@{
+    ViewBag.Title = "Comparison Demo";
+    Layout = "_Layout";
+}
+
+<div id="comparisonRoot">
+</div>
+
+<script>
+    var json = @Html.Raw(Model.Session.SerializeAsJsonString());
+    
+    function initPage() {
+        var pageRoot = document.querySelector("#comparisonRoot");
+        ReactDom.render(React.createElement(Portfolio.ComparisonPage, json), pageRoot);
+    }
+
+    window.addEventListener("load", initPage);
+</script>

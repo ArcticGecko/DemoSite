@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<div id="indexRoot">
+</div>
+
+<script>
+    function initPage() {
+        var pageRoot = document.querySelector("#indexRoot");
+        ReactDom.render(React.createElement(Portfolio.IndexPage), pageRoot);
+    }
+
+    window.addEventListener("load", initPage);
+</script>

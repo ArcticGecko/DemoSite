@@ -6650,11 +6650,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/olivermcmillan/Documents/RiderProjects/Development/Portfolio/Portfolio/Portfolio.csproj",
+      "projectUniqueName": "/Users/olivermcmillan/Documents/DemoSite/Portfolio/Portfolio.csproj",
       "projectName": "Portfolio",
-      "projectPath": "/Users/olivermcmillan/Documents/RiderProjects/Development/Portfolio/Portfolio/Portfolio.csproj",
+      "projectPath": "/Users/olivermcmillan/Documents/DemoSite/Portfolio/Portfolio.csproj",
       "packagesPath": "/Users/olivermcmillan/.nuget/packages/",
-      "outputPath": "/Users/olivermcmillan/Documents/RiderProjects/Development/Portfolio/Portfolio/obj/",
+      "outputPath": "/Users/olivermcmillan/Documents/DemoSite/Portfolio/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/olivermcmillan/.config/NuGet/NuGet.Config"

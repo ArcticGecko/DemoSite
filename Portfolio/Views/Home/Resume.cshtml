@@ -1,0 +1,15 @@
+@{
+    ViewData["Title"] = "Resume";
+}
+
+<div id="resumeRoot">
+</div>
+
+<script>
+    function initPage() {
+        var pageRoot = document.querySelector("#resumeRoot");
+        ReactDom.render(React.createElement(Portfolio.ResumePage), pageRoot);
+    }
+
+    window.addEventListener("load", initPage);
+</script>

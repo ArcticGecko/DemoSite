@@ -1,0 +1,45 @@
+﻿@model Portfolio.Models.BaseViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Oliver McMillan</title>
+    <!-- Import fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+    <!-- Import CSS script -->
+    <script src="~/dist/PortfolioCSS.js"></script>
+</head>
+<body>
+    <!-- Import react scripts. -->
+    <script src="~/dist/Portfolio.js"></script>
+    <!-- Root element for the header component -->
+    <header id="headerRoot"></header>
+    <!-- Render body, this will usually be a small section of script which instanciate a React component. -->
+    @RenderBody()
+    <!-- Root element for the footer component.s -->
+    <footer id="footerRoot"></footer>
+    <script>
+        // Set global variables.
+        variables.indexRoot = "@Url.Action("Index", "Home")";
+        variables.resumeRoot = "@Url.Action("Resume", "Home")";
+        variables.comparisonRoot = "@Url.Action("Index", "Comparison")";
+        variables.emailAddress = "@Model.EmailAddress";
+        // Initialize components.
+        function initHeader() {
+            var headerRoot = document.querySelector("#headerRoot");
+            ReactDom.render(React.createElement(Portfolio.FixedHeader), headerRoot);
+        }
+
+        function initFooter() {
+            var footerRoot = document.querySelector("#footerRoot");
+            ReactDom.render(React.createElement(Portfolio.Footer), footerRoot);
+        }
+
+        window.addEventListener("load", initHeader);
+        window.addEventListener("load", initFooter);
+    </script>
+</body>
+</html>
