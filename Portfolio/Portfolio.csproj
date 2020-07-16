@@ -1,0 +1,193 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <CSFile Include="*.ts" Exclude="*.d.ts" />
+    <None Remove="Scripts\Components\HighlightTitle\HighlightChar.d.ts" />
+    <None Remove="Scripts\Components\Tile\DisplayTile.d.ts" />
+    <None Remove="Scripts\Components\Tile\index.d.ts" />
+    <None Remove="Scripts\Components\Tile\TileContainer.d.ts" />
+    <None Remove="Scripts\Footer\Footer.d.ts" />
+    <None Remove="Scripts\Footer\Footer.tsx" />
+    <None Remove="Scripts\Footer\FooterButton.d.ts" />
+    <None Remove="Scripts\Footer\FooterButton.tsx" />
+    <None Remove="Scripts\Footer\index.d.ts" />
+    <None Remove="Scripts\Footer\index.ts" />
+    <None Remove="Scripts\Header\FixedHeader.d.ts" />
+    <None Remove="Scripts\Header\FixedHeader.tsx" />
+    <None Remove="Scripts\Header\HeaderButton.d.ts" />
+    <None Remove="Scripts\Header\HeaderButton.tsx" />
+    <None Remove="Scripts\Header\HeaderTitle.d.ts" />
+    <None Remove="Scripts\Header\HeaderTitle.tsx" />
+    <None Remove="Scripts\Header\index.d.ts" />
+    <None Remove="Scripts\Header\index.ts" />
+    <None Remove="Scripts\Output.d.ts" />
+    <None Remove="Scripts\Output.ts" />
+    <None Remove="Scripts\Components\Box\Box.d.ts" />
+    <None Remove="Scripts\Components\Box\BOx.tsx" />
+    <None Remove="Scripts\Components\Box\BoxDisplay.d.ts" />
+    <None Remove="Scripts\Components\Box\BoxDisplay.tsx" />
+    <None Remove="Scripts\Components\Box\index.d.ts" />
+    <None Remove="Scripts\Components\Box\index.ts" />
+    <None Remove="Scripts\Components\DisplayTile.d.ts" />
+    <None Remove="Scripts\Components\DisplayTile.tsx" />
+    <None Remove="Scripts\Components\HighlightTitle\HighlightChar.tsx" />
+    <None Remove="Scripts\Components\HighlightTitle\HighlightTitle.d.ts" />
+    <None Remove="Scripts\Components\HighlightTitle\HighlightTitle.tsx" />
+    <None Remove="Scripts\Components\HighlightTitle\index.d.ts" />
+    <None Remove="Scripts\Components\HighlightTitle\index.ts" />
+    <None Remove="Scripts\Components\index.d.ts" />
+    <None Remove="Scripts\Components\index.ts" />
+    <None Remove="Scripts\Components\TileContainer.d.ts" />
+    <None Remove="Scripts\Components\TileContainer.tsx" />
+    <None Remove="Scripts\Pages\ContactPage.d.ts" />
+    <None Remove="Scripts\Pages\ContactPage.tsx" />
+    <None Remove="Scripts\Pages\index.d.ts" />
+    <None Remove="Scripts\Pages\index.ts" />
+    <None Remove="Scripts\Pages\IndexPage.d.ts" />
+    <None Remove="Scripts\Pages\IndexPage.tsx" />
+    <None Remove="Scripts\StyleOutput.ts" />
+    <None Remove="Scripts\Utilities\Color.d.ts" />
+    <None Remove="Scripts\Utilities\Color.ts" />
+    <None Remove="Scripts\Utilities\ColorUtilities.d.ts" />
+    <None Remove="Scripts\Utilities\ColorUtilities.ts" />
+    <None Remove="Scripts\Utilities\index.d.ts" />
+    <None Remove="Scripts\Utilities\index.ts" />
+    <None Remove="Scripts\Utilities\KeyUtilities.ts" />
+    <None Remove="Scripts\Utilities\PositionTools.d.ts" />
+    <None Remove="Scripts\Utilities\PositionTools.ts" />
+    <None Remove="Scripts\Variables.d.ts" />
+    <CSFile Remove="tsOutput\**" />
+    <None Remove="tsOutput\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Remove="Scripts\Components\HighlightTitle\HighlightChar.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Components\Tile\DisplayTile.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Components\Tile\index.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Components\Tile\TileContainer.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Footer\Footer.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Footer\FooterButton.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Footer\index.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Header\FixedHeader.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Header\HeaderButton.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Header\HeaderTitle.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Header\index.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Output.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Components\Box\Box.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Components\Box\BoxDisplay.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Components\Box\index.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Components\DisplayTile.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Components\HighlightTitle\HighlightTitle.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Components\HighlightTitle\index.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Components\index.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Components\TileContainer.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Pages\ContactPage.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Pages\index.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Pages\IndexPage.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Utilities\Color.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Utilities\ColorUtilities.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Utilities\index.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Utilities\PositionTools.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Variables.d.ts" />
+    <TypeScriptCompile Include="Scripts\Components\Box\BoxContainer.tsx" />
+    <TypeScriptCompile Include="Scripts\Components\ComparisonTool\AddButton.tsx" />
+    <TypeScriptCompile Include="Scripts\Components\ComparisonTool\AddRowDialog.tsx" />
+    <TypeScriptCompile Include="Scripts\Components\ComparisonTool\ComparisonTool.tsx" />
+    <TypeScriptCompile Include="Scripts\Components\ComparisonTool\ComparisonValue.tsx" />
+    <TypeScriptCompile Include="Scripts\Components\ComparisonTool\DeleteButton.tsx" />
+    <TypeScriptCompile Include="Scripts\Components\ComparisonTool\Dictionary.ts" />
+    <TypeScriptCompile Include="Scripts\Components\ComparisonTool\index.ts" />
+    <TypeScriptCompile Include="Scripts\Components\FoldOverButton\FoldOverButton.tsx" />
+    <TypeScriptCompile Include="Scripts\Components\FoldOverButton\index.ts" />
+    <TypeScriptCompile Include="Scripts\Components\index.ts" />
+    <TypeScriptCompile Include="Scripts\Components\PdfButton\index.ts" />
+    <TypeScriptCompile Include="Scripts\Components\PdfButton\PdfButton.tsx" />
+    <TypeScriptCompile Include="Scripts\Components\PdfSwitch\index.ts" />
+    <TypeScriptCompile Include="Scripts\Components\PdfSwitch\PdfSwitch.tsx" />
+    <TypeScriptCompile Include="Scripts\Components\Popup\index.ts" />
+    <TypeScriptCompile Include="Scripts\Components\Popup\Popup.tsx" />
+    <TypeScriptCompile Include="Scripts\Components\SmallTile\index.ts" />
+    <TypeScriptCompile Include="Scripts\Components\SmallTile\SmallTile.tsx" />
+    <TypeScriptCompile Include="Scripts\Components\Switch\index.ts" />
+    <TypeScriptCompile Include="Scripts\Components\Switch\Switch.tsx" />
+    <TypeScriptCompile Remove="tsOutput\Components\Box\Box.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Components\Box\BoxContainer.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Components\Box\BoxDisplay.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Components\Box\index.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Components\FoldOverButton\FoldOverButton.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Components\FoldOverButton\index.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Components\HighlightTitle\HighlightChar.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Components\HighlightTitle\HighlightTitle.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Components\HighlightTitle\index.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Components\SmallTile\index.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Components\SmallTile\SmallTile.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Components\Tile\DisplayTile.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Components\Tile\index.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Components\Tile\TileContainer.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Footer\Footer.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Footer\FooterButton.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Footer\index.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Header\FixedHeader.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Header\HeaderButton.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Header\HeaderTitle.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Header\index.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Output.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Pages\ContactPage.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Pages\index.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Pages\IndexPage.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Pages\ResumePage.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\StyleOutput.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Utilities\Color.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Utilities\ColorUtilities.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Utilities\index.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Utilities\KeyUtilities.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Utilities\PositionTools.d.ts" />
+    <TypeScriptCompile Remove="tsOutput\Variables.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Components\FoldOverButton\FoldOverButton.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Components\FoldOverButton\index.d.ts" />
+    <TypeScriptCompile Remove="Scripts\Components\FoldOverButton\index.ts" />
+    <TypeScriptCompile Remove="Scripts\Components\FoldOverButton\FoldOverButton.tsx" />
+    <TypeScriptCompile Remove="Scripts\Components\PdfSwitch\index.ts" />
+    <TypeScriptCompile Remove="Scripts\Components\PdfSwitch\PdfSwitch.tsx" />
+    <TypeScriptCompile Include="Scripts\Pages\ComparisonPage.tsx" />
+    <TypeScriptCompile Include="Scripts\Utilities\ObjectUtils.ts" />
+    <TypeScriptCompile Include="Scripts\Utilities\ReturnJsonModel.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="3.7.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+    <PackageReference Include="NLog" Version="4.7.2" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0-preview.5.20278.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\dist\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\content\SIMPLIFICA.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="tsOutput\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="tsOutput\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="tsOutput\**" />
+    <Content Remove="package-lock.json" />
+  </ItemGroup>
+
+
+</Project>

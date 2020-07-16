@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": false,
+    "declaration": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "target": "esnext",
+    "jsx": "react",
+    "baseUrl": ".",
+    "outDir": "./tsOutput",
+    "paths": {
+      "*": [
+        "Scripts/@types/*"
+      ]
+    },
+    "typeRoots": [
+      "Scripts/@types",
+      "node_modules/@types"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ]
+}

@@ -1,0 +1,62 @@
+import * as React from 'react';
+import { BoxContainer, Box, BoxDisplay, DisplayTile, TileContainer } from '../Components';
+export class IndexPage extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+    render() {
+        return (React.createElement(React.Fragment, null,
+            React.createElement("div", { className: "index-top-display" },
+                React.createElement("div", { className: "center-horizontal secondary-content-width index-title-container" },
+                    React.createElement("h1", null, "Full-Stack Web Developer")),
+                React.createElement(BoxContainer, null,
+                    React.createElement(BoxDisplay, { position: "top" },
+                        React.createElement(Box, { title: "Front End", src: "/content/WebPage.svg" },
+                            React.createElement("li", null, "HTML"),
+                            React.createElement("li", null, "CSS"),
+                            React.createElement("li", null, "JavaScript"),
+                            React.createElement("li", null, "React.js"),
+                            React.createElement("li", null, "TypeScript"),
+                            React.createElement("li", null, "WebPack")),
+                        React.createElement(Box, { title: "Server", src: "/content/Server.svg" },
+                            React.createElement("li", null, "IIS"),
+                            React.createElement("li", null, "C#"),
+                            React.createElement("li", null, ".NET Core"),
+                            React.createElement("li", null, ".NET Framework"),
+                            React.createElement("li", null, "MVC"),
+                            React.createElement("li", null, "Node JS")),
+                        React.createElement(Box, { title: "DataBase", src: "/content/DataBase.svg" },
+                            React.createElement("li", null, "T-SQL"),
+                            React.createElement("li", null, "SSMS"),
+                            React.createElement("li", null, "SQL Server Agent"),
+                            React.createElement("li", null, "ADO.NET"),
+                            React.createElement("li", null, "QGIS"))),
+                    React.createElement(BoxDisplay, { position: "middle" },
+                        React.createElement(Box, { title: "To Build..." }),
+                        React.createElement(Box, { title: "To Run..." }),
+                        React.createElement(Box, { title: "To Manage..." })),
+                    React.createElement(BoxDisplay, { position: "bottom" },
+                        React.createElement(Box, null,
+                            React.createElement("li", null, "Responsive Front Ends"),
+                            React.createElement("li", null, "Data Visualisation"),
+                            React.createElement("li", null, "Mapping Tools")),
+                        React.createElement(Box, null,
+                            React.createElement("li", null, "Secure Login Systems"),
+                            React.createElement("li", null, "Live Data Feeds"),
+                            React.createElement("li", null, "Scheduled Tasks")),
+                        React.createElement(Box, null,
+                            React.createElement("li", null, "Large Volumes of Data"),
+                            React.createElement("li", null, "Geospacial Data"),
+                            React.createElement("li", null, "Data Aggregation")))),
+                React.createElement("div", { className: "top-display-text center-horizontal secondary-content-width" },
+                    React.createElement("h3", null, "Hi, I'm Oliver..."),
+                    React.createElement("p", null, "...a full-stack developer of 3 years experience. In that time I've worked primarily in creating systems to automatically aggregate and visualise geospatial data, but I also have experience building Web and WPF applications. I have interests in engineering, physics, and software systems."))),
+            React.createElement("div", { className: "center-horizontal secondary-content-width" },
+                React.createElement("h2", null, "My Work"),
+                React.createElement(TileContainer, null,
+                    React.createElement(DisplayTile, { src: "/content/Metricell.png", href: "https://www.metricell.com/" }, "Metricell is a successful startup company from Horsham offering Geospatial Intelligence Solutions for Government bodies, Enterprises and Network Operators. I have been working here for 3 years, helping build and maintain their SmartTools applications, and gaining my Level 3 Software technician qulaification."),
+                    React.createElement(DisplayTile, { src: "/content/Unum.png", href: "https://www.unum.co.uk/" }, "UNUM is a Disability, Life, and Financial insurance provider, and one of the largest in the UK. It is where I gained my first eight weeks of work experience in IT field, during my time their I helped audit equipment, deploy new hardware resources, and maintain the existing infrastucture."))),
+            React.createElement("div", { className: "spacer" })));
+    }
+}
+//# sourceMappingURL=IndexPage.js.map

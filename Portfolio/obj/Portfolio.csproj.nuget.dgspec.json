@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/olivermcmillan/Documents/RiderProjects/Development/Portfolio/Portfolio/Portfolio.csproj": {}
+  },
+  "projects": {
+    "/Users/olivermcmillan/Documents/RiderProjects/Development/Portfolio/Portfolio/Portfolio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/olivermcmillan/Documents/RiderProjects/Development/Portfolio/Portfolio/Portfolio.csproj",
+        "projectName": "Portfolio",
+        "projectPath": "/Users/olivermcmillan/Documents/RiderProjects/Development/Portfolio/Portfolio/Portfolio.csproj",
+        "packagesPath": "/Users/olivermcmillan/.nuget/packages/",
+        "outputPath": "/Users/olivermcmillan/Documents/RiderProjects/Development/Portfolio/Portfolio/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/olivermcmillan/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.TypeScript.MSBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.7.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0-preview.5.20278.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/olivermcmillan/.dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
