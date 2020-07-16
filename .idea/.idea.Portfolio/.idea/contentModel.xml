@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Portfolio" t="IncludeRecursive">
+        <e p=".babelrc" t="Include" />
+        <e p=".npmrc" t="Include" />
+        <e p="AppSettings.cs" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="ComparisonController.cs" t="Include" />
+          <e p="HomeController.cs" t="Include" />
+        </e>
+        <e p="Exceptions" t="Include">
+          <e p="InvalidInputException.cs" t="Include" />
+        </e>
+        <e p="Interfaces" t="Include">
+          <e p="IComparisonValue.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="BaseViewModel.cs" t="Include" />
+          <e p="ComparisonViewModel.cs" t="Include" />
+          <e p="Components" t="Include">
+            <e p="ComparisonSession.cs" t="Include" />
+            <e p="ComparisonValueType.cs" t="Include" />
+          </e>
+          <e p="ErrorViewModel.cs" t="Include" />
+          <e p="ReturnJsonModel.cs" t="Include" />
+          <e p="Types" t="Include">
+            <e p="NumericItem.cs" t="Include" />
+            <e p="StringItem.cs" t="Include" />
+          </e>
+        </e>
+        <e p="node_modules/@babel/cli" t="IncludeRecursive" />
+        <e p="node_modules/@babel/core" t="IncludeRecursive" />
+        <e p="node_modules/@babel/polyfill" t="IncludeRecursive" />
+        <e p="node_modules/@babel/preset-react" t="IncludeRecursive" />
+        <e p="node_modules/@babel/preset-typescript" t="IncludeRecursive" />
+        <e p="node_modules/@emotion/hash" t="IncludeRecursive" />
+        <e p="node_modules/@material-ui/core" t="IncludeRecursive" />
+        <e p="node_modules/@material-ui/icons" t="IncludeRecursive" />
+        <e p="node_modules/@material-ui/styles" t="IncludeRecursive" />
+        <e p="node_modules/@material-ui/system" t="IncludeRecursive" />
+        <e p="node_modules/@material-ui/Types" t="IncludeRecursive" />
+        <e p="node_modules/@material-ui/Utils" t="IncludeRecursive" />
+        <e p="node_modules/@types" t="IncludeRecursive">
+          <e p="jquery" t="IncludeRecursive" />
+          <e p="lodash" t="IncludeRecursive" />
+          <e p="node" t="IncludeRecursive" />
+          <e p="prop-types" t="IncludeRecursive" />
+          <e p="react" t="IncludeRecursive" />
+          <e p="sizzle" t="IncludeRecursive" />
+        </e>
+        <e p="node_modules/babel-loader" t="IncludeRecursive" />
+        <e p="node_modules/chalk" t="IncludeRecursive" />
+        <e p="node_modules/chokidar" t="IncludeRecursive" />
+        <e p="node_modules/clsx" t="IncludeRecursive" />
+        <e p="node_modules/css-loader" t="IncludeRecursive" />
+        <e p="node_modules/csstype" t="IncludeRecursive" />
+        <e p="node_modules/file-loader" t="IncludeRecursive" />
+        <e p="node_modules/is-in-browser" t="IncludeRecursive" />
+        <e p="node_modules/jquery" t="IncludeRecursive" />
+        <e p="node_modules/jss" t="IncludeRecursive" />
+        <e p="node_modules/jss-plugin-camel-case" t="IncludeRecursive" />
+        <e p="node_modules/jss-plugin-default-unit" t="IncludeRecursive" />
+        <e p="node_modules/jss-plugin-global" t="IncludeRecursive" />
+        <e p="node_modules/jss-plugin-nested" t="IncludeRecursive" />
+        <e p="node_modules/jss-plugin-props-sort" t="IncludeRecursive" />
+        <e p="node_modules/jss-plugin-rule-value-function" t="IncludeRecursive" />
+        <e p="node_modules/jss-plugin-vendor-prefixer" t="IncludeRecursive" />
+        <e p="node_modules/lodash" t="IncludeRecursive" />
+        <e p="node_modules/node-sass" t="IncludeRecursive" />
+        <e p="node_modules/popper.js" t="IncludeRecursive" />
+        <e p="node_modules/react" t="IncludeRecursive" />
+        <e p="node_modules/react-dom" t="IncludeRecursive" />
+        <e p="node_modules/resolve-url-loader" t="IncludeRecursive" />
+        <e p="node_modules/sass" t="IncludeRecursive" />
+        <e p="node_modules/sass-loader" t="IncludeRecursive" />
+        <e p="node_modules/style-loader" t="IncludeRecursive" />
+        <e p="node_modules/tiny-warning" t="IncludeRecursive" />
+        <e p="node_modules/tsconfig-paths" t="IncludeRecursive" />
+        <e p="node_modules/tsconfig-paths-webpack-plugin" t="IncludeRecursive" />
+        <e p="node_modules/upath" t="IncludeRecursive" />
+        <e p="node_modules/url-loader" t="IncludeRecursive" />
+        <e p="node_modules/webpack" t="IncludeRecursive" />
+        <e p="node_modules/webpack-cli" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Portfolio.AssemblyInfo.cs" t="Include" />
+              <e p="Portfolio.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="package.json" t="Include" />
+        <e p="Portfolio.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Components" t="Include">
+            <e p="Box" t="Include">
+              <e p="Box.tsx" t="Include" />
+              <e p="BoxContainer.tsx" t="Include" />
+              <e p="BoxDisplay.tsx" t="Include" />
+              <e p="index.ts" t="Include" />
+            </e>
+            <e p="ComparisonTool" t="Include">
+              <e p="AddButton.tsx" t="Include" />
+              <e p="AddRowDialog.tsx" t="Include" />
+              <e p="ComparisonTool.tsx" t="Include" />
+              <e p="ComparisonValue.tsx" t="Include" />
+              <e p="DeleteButton.tsx" t="Include" />
+              <e p="Dictionary.ts" t="Include" />
+              <e p="index.ts" t="Include" />
+            </e>
+            <e p="HighlightTitle" t="Include">
+              <e p="HighlightChar.tsx" t="Include" />
+              <e p="HighlightTitle.tsx" t="Include" />
+              <e p="index.ts" t="Include" />
+            </e>
+            <e p="index.ts" t="Include" />
+            <e p="PdfButton" t="Include">
+              <e p="index.ts" t="Include" />
+              <e p="PdfButton.tsx" t="Include" />
+            </e>
+            <e p="Popup" t="Include">
+              <e p="index.ts" t="Include" />
+              <e p="Popup.tsx" t="Include" />
+            </e>
+            <e p="SmallTile" t="Include">
+              <e p="index.ts" t="Include" />
+              <e p="SmallTile.tsx" t="Include" />
+            </e>
+            <e p="Switch" t="Include">
+              <e p="index.ts" t="Include" />
+              <e p="Switch.tsx" t="Include" />
+            </e>
+            <e p="Tile" t="Include">
+              <e p="DisplayTile.tsx" t="Include" />
+              <e p="index.ts" t="Include" />
+              <e p="TileContainer.tsx" t="Include" />
+            </e>
+          </e>
+          <e p="Footer" t="Include">
+            <e p="Footer.tsx" t="Include" />
+            <e p="FooterButton.tsx" t="Include" />
+            <e p="index.ts" t="Include" />
+          </e>
+          <e p="Header" t="Include">
+            <e p="FixedHeader.tsx" t="Include" />
+            <e p="HeaderButton.tsx" t="Include" />
+            <e p="HeaderTitle.tsx" t="Include" />
+            <e p="index.ts" t="Include" />
+          </e>
+          <e p="Output.ts" t="Include" />
+          <e p="Pages" t="Include">
+            <e p="ComparisonPage.tsx" t="Include" />
+            <e p="ContactPage.tsx" t="Include" />
+            <e p="index.ts" t="Include" />
+            <e p="IndexPage.tsx" t="Include" />
+            <e p="ResumePage.tsx" t="Include" />
+          </e>
+          <e p="StyleOutput.d.ts" t="Include" />
+          <e p="StyleOutput.js" t="Include" />
+          <e p="StyleOutput.js.map" t="Include" />
+          <e p="StyleOutput.ts" t="Include" />
+          <e p="Utilities" t="Include">
+            <e p="Color.ts" t="Include" />
+            <e p="ColorUtilities.ts" t="Include" />
+            <e p="index.ts" t="Include" />
+            <e p="IReturnJsonModel.ts" t="Include" />
+            <e p="KeyUtilities.ts" t="Include" />
+            <e p="ObjectUtils.ts" t="Include" />
+            <e p="PositionTools.ts" t="Include" />
+            <e p="ReturnJsonModel.ts" t="Include" />
+          </e>
+          <e p="Variables.ts" t="Include" />
+        </e>
+        <e p="scss" t="Include">
+          <e p="Base.scss" t="Include" />
+          <e p="Layout.scss" t="Include" />
+          <e p="Pages.scss" t="Include" />
+          <e p="Site.scss" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="tsconfig.json" t="Include" />
+        <e p="tsconfig.tsbuildinfo" t="Include" />
+        <e p="tsOutput" t="Include">
+          <e p="Components" t="Include">
+            <e p="ComparisonTool" t="Include">
+              <e p="AddButton.d.ts" t="Include" />
+              <e p="AddRowDialog.d.ts" t="Include" />
+              <e p="ComparisonTool.d.ts" t="Include" />
+              <e p="ComparisonValue.d.ts" t="Include" />
+              <e p="DeleteButton.d.ts" t="Include" />
+              <e p="Dictionary.d.ts" t="Include" />
+              <e p="index.d.ts" t="Include" />
+            </e>
+            <e p="index.d.ts" t="Include" />
+            <e p="PdfButton" t="Include">
+              <e p="index.d.ts" t="Include" />
+              <e p="PdfButton.d.ts" t="Include" />
+            </e>
+            <e p="Popup" t="Include">
+              <e p="index.d.ts" t="Include" />
+              <e p="Popup.d.ts" t="Include" />
+            </e>
+            <e p="Switch" t="Include">
+              <e p="index.d.ts" t="Include" />
+              <e p="Switch.d.ts" t="Include" />
+            </e>
+          </e>
+          <e p="Pages" t="Include">
+            <e p="ComparisonPage.d.ts" t="Include" />
+          </e>
+          <e p="Utilities" t="Include">
+            <e p="IReturnJsonModel.d.ts" t="Include" />
+            <e p="ObjectUtils.d.ts" t="Include" />
+          </e>
+        </e>
+        <e p="Utils" t="Include">
+          <e p="ObjectExtensions.cs" t="Include" />
+          <e p="QuickLogger.cs" t="Include" />
+          <e p="StringExtensions.cs" t="Include" />
+          <e p="ValueTypeExtensions.cs" t="Include" />
+        </e>
+        <e p="Views" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Comparison" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Home" t="Include">
+            <e p="Index.cshtml" t="Include" />
+            <e p="Resume.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+          </e>
+        </e>
+        <e p="watcher.js" t="Include" />
+        <e p="webpack.config.js" t="Include" />
+        <e p="wwwroot" t="Include">
+          <e p="content" t="Include">
+            <e p="DataBase.svg" t="Include" />
+            <e p="Email.svg" t="Include" />
+            <e p="GitHub.svg" t="Include" />
+            <e p="LinkedIn.svg" t="Include" />
+            <e p="Metricell.png" t="Include" />
+            <e p="PdfIcon.svg" t="Include" />
+            <e p="Resume - Oliver McMillan.pdf" t="Include" />
+            <e p="Server.svg" t="Include" />
+            <e p="SIMPLIFICA.ttf" t="Include" />
+            <e p="Unum.png" t="Include" />
+            <e p="WebPage.svg" t="Include" />
+          </e>
+          <e p="dist" t="Include">
+            <e p="Portfolio.js" t="Include" />
+            <e p="PortfolioCSS.js" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+        </e>
+      </e>
+      <e p="Portfolio.sln" t="IncludeFlat" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_Portfolio.1492430263.00" t="ExcludeRecursive" />
+  </component>
+</project>
