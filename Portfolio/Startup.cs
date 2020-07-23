@@ -8,8 +8,6 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using NLog;
-using Portfolio.Utils;
 
 namespace Portfolio
 {
@@ -20,17 +18,6 @@ namespace Portfolio
 			Configuration = configuration;
 			AppSettings = new AppSettings();
 			AppSettings.EmailAddress = Configuration.GetSection("AppConfiguration")["EmailAddress"];
-			string cacheSizeString = Configuration.GetSection("AppConfiguration")["CacheSize"];
-			if (long.TryParse(cacheSizeString, out long cacheSize))
-			{
-				AppSettings.CacheSize = cacheSize;
-			}
-			else
-			{
-				QuickLogger.Log(LogLevel.Info,
-					"Cache size setting is either not set, or doesn't have a valid long value. The default will be used.");
-				AppSettings.CacheSize = 200;
-			}
 		}
 
 		public static AppSettings AppSettings { get; set; }

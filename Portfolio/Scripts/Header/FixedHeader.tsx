@@ -3,7 +3,6 @@ import {HeaderButton, HeaderTitle} from './';
 import {HighlightTitle} from '../Components/HighlightTitle';
 
 export interface FixedHeaderProps {
-
 }
 
 export class FixedHeader extends React.Component<FixedHeaderProps> {
@@ -25,8 +24,6 @@ export class FixedHeader extends React.Component<FixedHeaderProps> {
                                       isActive={window.location.pathname == window.variables.indexRoot}/>
                         <HeaderButton text="Resume" href={window.variables.resumeRoot}
                                       isActive={window.location.pathname == window.variables.resumeRoot}/>
-                        <HeaderButton text="Comparison Demo" href={window.variables.comparisonRoot}
-                                      isActive={window.location.pathname == window.variables.comparisonRoot}/>
                     </div>
                     <div className="flex-filler"/>
                 </div>

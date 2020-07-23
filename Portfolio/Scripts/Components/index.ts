@@ -1,5 +1,4 @@
 export * from './Box';
-export * from './ComparisonTool';
 export * from './HighlightTitle';
 export * from './PdfButton';
 export * from './Popup';

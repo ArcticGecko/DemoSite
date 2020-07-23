@@ -41,7 +41,7 @@
   },
   "scripts": {
     "clean-output": "rm -r ./tsOutput",
-    "build": "npm run clean-output && npm run build-scripts && npm run pack-scripts",
+    "build": "npm run build-scripts && npm run pack-scripts",
     "build-scripts": "\"./node_modules/.bin/tsc\"",
     "pack-scripts": "npx webpack",
     "watch": "node \"./watcher.js\""

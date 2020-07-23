@@ -23,6 +23,7 @@ export class Footer extends React.Component<FooterProps> {
                             <FooterButton src="/content/LinkedIn.svg" href="https://linkedin.com/in/oliver-mcmillan" />
                         </div>
                         <h3 className="footer-title">Built by me</h3>
+                        <h5 className="footer-title">Hosted with AWS</h5>
                     </div>
                     <div className="flex-filler"/>
                 </div>

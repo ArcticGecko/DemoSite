@@ -2,7 +2,6 @@
   "compilerOptions": {
     "noImplicitAny": false,
     "noEmitOnError": false,
-    "declaration": true,
     "removeComments": true,
     "sourceMap": true,
     "moduleResolution": "node",
@@ -10,6 +9,7 @@
     "jsx": "react",
     "baseUrl": ".",
     "outDir": "./tsOutput",
+    "allowJs": true,
     "paths": {
       "*": [
         "Scripts/@types/*"
@@ -18,10 +18,14 @@
     "typeRoots": [
       "Scripts/@types",
       "node_modules/@types"
-    ]
+    ],
+    "rootDir": "./Scripts"
   },
   "exclude": [
     "node_modules",
-    "wwwroot"
+    "wwwroot",
+    "./tsOutput",
+    "./watcher.js",
+    "./webpack.config.js"
   ]
 }

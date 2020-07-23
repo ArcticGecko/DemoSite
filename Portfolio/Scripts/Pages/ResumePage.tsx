@@ -37,18 +37,19 @@ export class ResumePage extends React.Component<ResumePageProps> {
                             <li>Designed and implemented secure login systems, user permission and profile management
                                 features, and automated download pages.
                             </li>
-                            <li>Used APIs to implement live feed data displays and create support tickets.</li>
+                            <li>Used REST APIs to implement live feed data displays and create support tickets.</li>
                             <li>Maintained and supported large databases. 3000+ objects, 50,000,000,000+ records.</li>
                             <li>Managed regular live web deployments.</li>
+                            <li>Interpreted, diagnosed and, fixed issues raised by the QA team or end users.</li>
                         </ul>
                         <h3>UNUM</h3>
                         <h4>2015 - 2017 Part Time</h4>
                         <ul>
-                            <li>Auditing IT equipment.</li>
-                            <li>Setting up and distributing new equiment.</li>
-                            <li>Performing hardware and sofware maintenance on existing IT equipment.</li>
+                            <li>Audited IT equipment.</li>
+                            <li>Set up and distributed new equiment to staff and teams.</li>
+                            <li>Performed hardware and software maintenance on existing IT equipment.</li>
                         </ul>
-                        <h2>Skills</h2>
+                        <h2>Technologies</h2>
                         <div className="flex-row flex-wrap">
                             <SmallTile text="React"/>
                             <SmallTile text="HTML"/>
@@ -66,7 +67,16 @@ export class ResumePage extends React.Component<ResumePageProps> {
                             <SmallTile text="XAML"/>
                             <SmallTile text="SQL"/>
                             <SmallTile text="SQL Server Agent"/>
+                        </div>
+                        <h2>Tools</h2>
+                        <div className="flex-row flex-wrap">
+                            <SmallTile text="Git"/>
+                            <SmallTile text="TFS"/>
+                            <SmallTile text="Team City"/>
+                            <SmallTile text="Visual Studio"/>
+                            <SmallTile text="Rider"/>
                             <SmallTile text="Q-GIS"/>
+                            <SmallTile text="Agile"/>
                         </div>
                         <h2>Qualifications</h2>
                         <h3>BCS Software Development Technician Level 3 with Merit</h3>

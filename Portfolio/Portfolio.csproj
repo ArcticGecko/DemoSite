@@ -153,18 +153,24 @@
     <TypeScriptCompile Remove="Scripts\Components\FoldOverButton\FoldOverButton.tsx" />
     <TypeScriptCompile Remove="Scripts\Components\PdfSwitch\index.ts" />
     <TypeScriptCompile Remove="Scripts\Components\PdfSwitch\PdfSwitch.tsx" />
-    <TypeScriptCompile Include="Scripts\Pages\ComparisonPage.tsx" />
     <TypeScriptCompile Include="Scripts\Utilities\ObjectUtils.ts" />
     <TypeScriptCompile Include="Scripts\Utilities\ReturnJsonModel.ts" />
+    <TypeScriptCompile Remove="Scripts\Components\ComparisonTool\Dictionary.ts" />
+    <TypeScriptCompile Remove="Scripts\Components\ComparisonTool\index.ts" />
+    <TypeScriptCompile Remove="Scripts\Components\ComparisonTool\AddButton.tsx" />
+    <TypeScriptCompile Remove="Scripts\Components\ComparisonTool\AddRowDialog.tsx" />
+    <TypeScriptCompile Remove="Scripts\Components\ComparisonTool\ComparisonTool.tsx" />
+    <TypeScriptCompile Remove="Scripts\Components\ComparisonTool\ComparisonValue.tsx" />
+    <TypeScriptCompile Remove="Scripts\Components\ComparisonTool\DeleteButton.tsx" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi" Version="5.2.7" />
     <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="3.7.4">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
-    <PackageReference Include="NLog" Version="4.7.2" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0-preview.5.20278.1" />
   </ItemGroup>
 
@@ -177,6 +183,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="package-lock.json" />
+    <Content Remove="tsOutput\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="tsOutput\**" />
   </ItemGroup>
 
@@ -185,8 +196,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Remove="tsOutput\**" />
-    <Content Remove="package-lock.json" />
+    <_ContentIncludedByDefault Remove="Views\Comparison\Index.cshtml" />
   </ItemGroup>
 
 
